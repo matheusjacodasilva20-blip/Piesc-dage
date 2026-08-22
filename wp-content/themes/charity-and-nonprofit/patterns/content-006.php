@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Title: Content 006
  * Slug: charity-and-nonprofit/content-006
@@ -13,52 +13,52 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"textAlign":"center","textColor":"contrast","fontSize":"superbfont-xlarge"} -->
-<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-superbfont-xlarge-font-size">Our Mission &amp; Values</h2>
+<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-superbfont-xlarge-font-size">Nossa Missão e Valores</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|superbspacing-medium"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-text-align-center has-mono-2-color has-text-color has-superbfont-small-font-size" style="margin-bottom:var(--wp--preset--spacing--superbspacing-medium)">Every initiative we launch is crafted to strengthen communities and steward resources responsibly. By sharing transparent insights and actionable guidance, we aim to multiply good work and spark collaboration across causes and continents.</p>
+<p class="has-text-align-center has-mono-2-color has-text-color has-superbfont-small-font-size" style="margin-bottom:var(--wp--preset--spacing--superbspacing-medium)">Nossa missão é fortalecer a comunidade por meio da solidariedade, do voluntariado e de ações sociais que promovam apoio e esperança.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|superbspacing-small","bottom":"var:preset|spacing|superbspacing-small","left":"var:preset|spacing|superbspacing-small","right":"var:preset|spacing|superbspacing-small"},"margin":{"top":"var:preset|spacing|superbspacing-xxsmall","bottom":"var:preset|spacing|superbspacing-xxsmall"}}},"backgroundColor":"mono-3","fontSize":"superbfont-medium","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-mono-3-background-color has-background has-superbfont-medium-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);margin-bottom:var(--wp--preset--spacing--superbspacing-xxsmall);padding-top:var(--wp--preset--spacing--superbspacing-small);padding-right:var(--wp--preset--spacing--superbspacing-small);padding-bottom:var(--wp--preset--spacing--superbspacing-small);padding-left:var(--wp--preset--spacing--superbspacing-small)"><!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-1"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"mono-1"} -->
-<p class="has-text-align-left has-mono-1-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:24px">Transparency &amp; Stewardship</p>
+<p class="has-text-align-left has-mono-1-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:24px">Solidariedade e Compromisso</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}},"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xxsmall"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">We treat every donation, whether it’s a single coin in a collection jar or a seven-figure grant, with the same rigorous care. Detailed impact reports, quarterly independent audits, and real-time project dashboards allow supporters to trace each dollar from receipt to result. </p>
+<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">Acreditamos que cada gesto de solidariedade pode fazer a diferença. Nosso trabalho busca transformar doações, apoio e participação da comunidade em ações que gerem impacto social. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}},"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xxsmall"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">By publishing success metrics and setbacks side-by-side, we make room for honest dialogue, faster course-corrections, and deeper trust between our team, our partners, and the communities we serve.</p>
+<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">O compromisso com a comunidade orienta nossas ações e fortalece a confiança entre voluntários, parceiros e pessoas beneficiadas.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|superbspacing-small","bottom":"var:preset|spacing|superbspacing-small","left":"var:preset|spacing|superbspacing-small","right":"var:preset|spacing|superbspacing-small"},"margin":{"top":"var:preset|spacing|superbspacing-xxsmall","bottom":"var:preset|spacing|superbspacing-xxsmall"}}},"backgroundColor":"mono-3","fontSize":"superbfont-medium","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-mono-3-background-color has-background has-superbfont-medium-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);margin-bottom:var(--wp--preset--spacing--superbspacing-xxsmall);padding-top:var(--wp--preset--spacing--superbspacing-small);padding-right:var(--wp--preset--spacing--superbspacing-small);padding-bottom:var(--wp--preset--spacing--superbspacing-small);padding-left:var(--wp--preset--spacing--superbspacing-small)"><!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-1"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"mono-1"} -->
-<p class="has-text-align-left has-mono-1-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:24px">Inclusive Collaboration	</p>
+<p class="has-text-align-left has-mono-1-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:24px">Transparência e Responsabilidade	</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}},"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xxsmall"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">Sustainable change only happens when those most affected help design the solution. Before launching any program we convene listening circles, translate materials into local languages, and invite community leaders, youth advocates, and elders to co-create project goals. </p>
+<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">Acreditamos na importância de agir com responsabilidade e transparência, buscando utilizar os recursos e as oportunidades de apoio de forma consciente para atender às necessidades da comunidade. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}},"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xxsmall"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">We also forge cross-sector partnerships, pairing NGOs with small businesses, universities, and faith groups, because diverse expertise sparks innovation and ensures that our programs respect cultural context while scaling effectively. .</p>
+<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">A parceria entre a associação, voluntários e a comunidade contribui para ampliar o alcance das ações e fortalecer os resultados do projeto.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|superbspacing-small","bottom":"var:preset|spacing|superbspacing-small","left":"var:preset|spacing|superbspacing-small","right":"var:preset|spacing|superbspacing-small"},"margin":{"top":"var:preset|spacing|superbspacing-xxsmall","bottom":"var:preset|spacing|superbspacing-xxsmall"}}},"backgroundColor":"mono-3","fontSize":"superbfont-medium","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-mono-3-background-color has-background has-superbfont-medium-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);margin-bottom:var(--wp--preset--spacing--superbspacing-xxsmall);padding-top:var(--wp--preset--spacing--superbspacing-small);padding-right:var(--wp--preset--spacing--superbspacing-small);padding-bottom:var(--wp--preset--spacing--superbspacing-small);padding-left:var(--wp--preset--spacing--superbspacing-small)"><!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-1"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"mono-1"} -->
-<p class="has-text-align-left has-mono-1-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:24px">Lifelong Service</p>
+<p class="has-text-align-left has-mono-1-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:24px">Participação e Voluntariado</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}},"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xxsmall"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">Charity is not a single event; it’s a lifelong rhythm of empathy in action. We nurture that rhythm through mentorship pipelines and hands-on training that equip volunteers to grow from one-time helpers into seasoned servant-leaders. Workshops on trauma-informed care and systemic advocacy empower people to address root causes, not just symptoms. </p>
+<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">O voluntariado representa uma oportunidade de participar ativamente das ações sociais e contribuir com tempo, conhecimento e disposição para ajudar. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}},"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xxsmall"}}},"textColor":"mono-2","fontSize":"superbfont-small"} -->
-<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">By celebrating service milestones and providing ongoing educational resources, we foster a global network committed to transforming compassion into enduring, generational impact.</p>
+<p class="has-mono-2-color has-text-color has-link-color has-superbfont-small-font-size" style="margin-top:var(--wp--preset--spacing--superbspacing-xxsmall);font-size:24px">Com a participação da comunidade, buscamos transformar pequenos gestos de solidariedade em ações capazes de gerar mudanças positivas e duradouras.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
