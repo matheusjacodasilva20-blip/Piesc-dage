@@ -47,7 +47,7 @@ include 'includes/header.php';
                         href="voluntarios.php"
                         class="btn btn-primary"
                     >
-                        ❤️ Quero ser voluntário
+                        <span aria-hidden="true">❤️</span> Quero ser voluntário
                     </a>
 
                     <a
@@ -163,7 +163,7 @@ include 'includes/header.php';
 
                     <div class="card-image">
 
-                        <div class="card-placeholder">
+                        <div class="card-placeholder" aria-hidden="true">
                             ❤️
                         </div>
 
@@ -171,7 +171,7 @@ include 'includes/header.php';
 
                     <div class="card-content">
 
-                        <span class="card-icon">
+                        <span class="card-icon" aria-hidden="true">
                             🛍️
                         </span>
 
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
                     <div class="card-image">
 
-                        <div class="card-placeholder">
+                        <div class="card-placeholder" aria-hidden="true">
                             🤝
                         </div>
 
@@ -208,7 +208,7 @@ include 'includes/header.php';
 
                     <div class="card-content">
 
-                        <span class="card-icon">
+                        <span class="card-icon" aria-hidden="true">
                             👨‍👩‍👧‍👦
                         </span>
 
@@ -237,7 +237,7 @@ include 'includes/header.php';
 
                     <div class="card-image">
 
-                        <div class="card-placeholder">
+                        <div class="card-placeholder" aria-hidden="true">
                             💙
                         </div>
 
@@ -245,7 +245,7 @@ include 'includes/header.php';
 
                     <div class="card-content">
 
-                        <span class="card-icon">
+                        <span class="card-icon" aria-hidden="true">
                             ❤️
                         </span>
 
@@ -316,7 +316,7 @@ include 'includes/header.php';
          CONTATO
     ========================== -->
 
-    <section class="contact-section">
+    <section class="contact-section" id="contato">
 
         <div class="container contact-content">
 
@@ -342,6 +342,7 @@ include 'includes/header.php';
                 <a
                     href="https://wa.me/5544999842047"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="contact-button"
                 >
                     WhatsApp
@@ -352,6 +353,26 @@ include 'includes/header.php';
                     class="contact-button"
                 >
                     E-mail
+                </a>
+
+                <!-- TODO: trocar o href="#" pelo link real do Instagram -->
+                <a
+                    href="https://www.instagram.com/neymarjr/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-button"
+                >
+                    Instagram
+                </a>
+
+                <!-- TODO: trocar o href="#" pelo link real do Facebook -->
+                <a
+                    href="https://p4.wallpaperbetter.com/wallpaper/616/654/498/great-ape-western-gorilla-mammal-terrestrial-animal-wallpaper-preview.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-button"
+                >
+                    Facebook
                 </a>
 
             </div>

@@ -943,28 +943,63 @@ Vermelho: #D62828
 }/* =========================
    FORMULÁRIO VOLUNTÁRIO
 ========================= */
+/* =========================
+   FORMULÁRIO VOLUNTÁRIO
+========================= */
 .volunteer-form-section {
     padding: 100px 0;
-    background: #ffffff;
+    background: #EEF6FF;
     scroll-margin-top: 100px;
 }
 
 .volunteer-form-content {
-    max-width: 650px;
+    max-width: 620px;
     margin: 0 auto;
 }
 
-.volunteer-form-content h1 {
-    color: #082F6B;
-    font-size: 40px;
-    line-height: 1.2;
-    margin-bottom: 16px;
+.volunteer-intro {
+    text-align: center;
+    margin-bottom: 34px;
 }
 
-.volunteer-form-content > p {
+.volunteer-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0B5DB7, #082F6B);
+    font-size: 32px;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 25px rgba(8, 47, 107, 0.25);
+}
+
+.volunteer-intro .section-tag {
+    display: block;
+}
+
+.volunteer-intro h1 {
+    color: #082F6B;
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.volunteer-intro p {
     color: #536875;
     font-size: 16px;
-    margin-bottom: 30px;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+/* CARD DO FORMULÁRIO */
+.volunteer-form-card {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 42px 38px;
+    border: 1px solid #dbeaf7;
+    box-shadow: 0 15px 45px rgba(8, 47, 107, 0.10);
 }
 
 .volunteer-form {
@@ -993,14 +1028,19 @@ Vermelho: #D62828
     font-size: 15px;
     font-family: inherit;
     color: #263238;
-    background: #ffffff;
+    background: #fafcff;
     transition: 0.3s;
+}
+
+.form-group input::placeholder {
+    color: #9db3c4;
 }
 
 .form-group input:focus,
 .form-group select:focus {
     outline: none;
     border-color: #0B5DB7;
+    background: #ffffff;
     box-shadow: 0 0 0 3px rgba(11, 93, 183, 0.15);
 }
 
@@ -1010,12 +1050,17 @@ Vermelho: #D62828
     outline-offset: 2px;
 }
 
+.form-group-hidden {
+    display: none;
+}
+
 .volunteer-form .btn {
-    align-self: flex-start;
+    align-self: stretch;
     border: none;
     cursor: pointer;
     font-family: inherit;
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: 6px;
 }
 
 @media (max-width: 600px) {
@@ -1023,11 +1068,136 @@ Vermelho: #D62828
         padding: 70px 0;
     }
 
-    .volunteer-form-content h1 {
+    .volunteer-intro h1 {
+        font-size: 29px;
+    }
+
+    .volunteer-form-card {
+        padding: 30px 22px;
+        border-radius: 18px;
+    }
+}
+
+/* =========================
+   SOBRE (h1 nessa página, mesmo estilo do h2 da home)
+========================= */
+.about-text h1 {
+    color: #082F6B;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   MISSÃO, VISÃO E VALORES
+========================= */
+.mvv-section {
+    padding: 100px 0;
+    background: #EEF6FF;
+}
+
+.mvv-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.mvv-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 35px 30px;
+    border: 1px solid #dbeaf7;
+    box-shadow: 0 8px 25px rgba(8, 47, 107, 0.08);
+    transition: 0.3s;
+}
+
+.mvv-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(8, 47, 107, 0.14);
+}
+
+.mvv-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #082F6B;
+    color: #ffffff;
+    margin-bottom: 14px;
+    font-size: 22px;
+}
+
+.mvv-card h3 {
+    color: #082F6B;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.mvv-card p {
+    color: #60727c;
+}
+
+@media (max-width: 1000px) {
+    .mvv-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .about-text h1 {
         font-size: 31px;
     }
 
-    .volunteer-form .btn {
-        align-self: stretch;
+    .mvv-section {
+        padding: 70px 0;
     }
+
+    .mvv-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* =========================
+   BOTÃO DE DESTAQUE NO MENU
+========================= */
+.menu .menu-cta {
+    background: #F4C542;
+    color: #082F6B;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.menu .menu-cta::after {
+    display: none;
+}
+
+.menu .menu-cta:hover {
+    background: #ffd85d;
+    color: #082F6B;
+    transform: translateY(-2px);
+}
+.form-group-hidden { display: none; } 
+/* =========================
+   MENSAGENS DO FORMULÁRIO
+========================= */
+.form-message {
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.form-message-success {
+    background: #e7f6ec;
+    color: #1c7a3d;
+    border: 1px solid #b9e6c6;
+}
+
+.form-message-error {
+    background: #fdecec;
+    color: #b32323;
+    border: 1px solid #f5c2c2;
 }

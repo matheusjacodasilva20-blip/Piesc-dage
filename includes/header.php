@@ -26,7 +26,9 @@
 
             <div class="logo-text">
                 <strong>Doe Amor e Gere Esperança</strong>
-                <span>e Gere Esperança</span>
+                <span>
+                    <span aria-hidden="true">📍</span> Astorga-Paraná
+                </span>
             </div>
 
         </a>
@@ -45,11 +47,11 @@
                 Ações
             </a>
 
-            <a href="voluntarios.php">
+            <a href="voluntarios.php" class="menu-cta">
                 Seja Voluntário
             </a>
 
-            <a href="contato.php">
+            <a href="index.php#contato">
                 Contato
             </a>
 
