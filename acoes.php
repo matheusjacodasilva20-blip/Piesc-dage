@@ -20,13 +20,14 @@ include 'includes/header.php';
                 </span>
 
                 <h1>
-                    O que fazemos
+                    Juntos fazendo a diferença
                 </h1>
 
                 <p>
-                    Conheça de perto as ações realizadas pela
-                    associação e como cada uma delas transforma
-                    a vida de quem mais precisa.
+                    A Associação Doe Amor e Gere Esperança realiza
+                    ações que ajudam pessoas e famílias em situação
+                    de vulnerabilidade. Conheça algumas das
+                    iniciativas realizadas pela associação.
                 </p>
 
             </div>
@@ -40,34 +41,36 @@ include 'includes/header.php';
 
                     <div class="card-image">
 
-                        <div class="card-placeholder" aria-hidden="true">
-                            ❤️
-                        </div>
+                        <img
+                            src="img/sopao.png"
+                            alt="Voluntários preparando o Sopão Solidário"
+                        >
 
                     </div>
 
                     <div class="card-content">
 
                         <span class="card-icon" aria-hidden="true">
-                            🛍️
+                            🍲
                         </span>
 
                         <h3>
-                            Doações de alimentos
+                            Sopão Solidário
                         </h3>
 
                         <p>
-                            Arrecadamos alimentos não perecíveis com
-                            a comunidade e montamos cestas básicas
-                            que são entregues periodicamente a
-                            famílias em situação de vulnerabilidade
-                            social, garantindo que ninguém passe
-                            fome na nossa região.
+                            O Sopão é uma das ações realizadas pela
+                            associação para levar alimento e
+                            acolhimento às pessoas que precisam de
+                            apoio. A equipe participa da preparação e
+                            distribuição dos alimentos em diferentes
+                            locais, buscando levar solidariedade
+                            diretamente à comunidade.
                         </p>
 
-                        <a href="voluntarios.php">
-                            Quero ajudar →
-                        </a>
+                        <span class="action-meta">
+                            <span aria-hidden="true">📍</span> Jardim das Torres
+                        </span>
 
                     </div>
 
@@ -80,33 +83,43 @@ include 'includes/header.php';
 
                     <div class="card-image">
 
-                        <div class="card-placeholder" aria-hidden="true">
-                            🤝
-                        </div>
+                        <img
+                            src="img/festa-criancas.jpeg"
+                            alt="Voluntária entregando doces para uma criança na Festa das Crianças"
+                        >
 
                     </div>
 
                     <div class="card-content">
 
                         <span class="card-icon" aria-hidden="true">
-                            👨‍👩‍👧‍👦
+                            🎉
                         </span>
 
                         <h3>
-                            Apoio às famílias
+                            Festa das Crianças
                         </h3>
 
                         <p>
-                            Oferecemos orientação e acompanhamento
-                            a famílias em situação de vulnerabilidade,
-                            ajudando no acesso a serviços básicos,
-                            direitos e apoio emocional, sempre com
-                            respeito e escuta.
+                            Em parceria com a Prefeitura, a
+                            associação participou de uma ação
+                            especial para proporcionar um dia de
+                            diversão e carinho para as crianças, com
+                            atividades no Horto e no Ginásio de
+                            Esportes.
                         </p>
 
-                        <a href="voluntarios.php">
-                            Quero ajudar →
-                        </a>
+                        <p>
+                            <strong>Distribuído no dia:</strong>
+                        </p>
+
+                        <ul class="action-list">
+                            <li>Cachorro-quente</li>
+                            <li>Pipoca e pipoca doce</li>
+                            <li>Bolo</li>
+                            <li>Balas e pirulitos</li>
+                            <li>Bolas e brinquedos</li>
+                        </ul>
 
                     </div>
 
@@ -119,33 +132,35 @@ include 'includes/header.php';
 
                     <div class="card-image">
 
-                        <div class="card-placeholder" aria-hidden="true">
-                            💙
-                        </div>
+                        <img
+                            src="img/fraldas-geriatricas.png"
+                            alt="Equipe da associação no Instituto Cocamar, em Maringá, parceiro do projeto de fraldas geriátricas"
+                        >
 
                     </div>
 
                     <div class="card-content">
 
                         <span class="card-icon" aria-hidden="true">
-                            ❤️
+                            🩹
                         </span>
 
                         <h3>
-                            Voluntariado
+                            Projeto de Fraldas Geriátricas
                         </h3>
 
                         <p>
-                            Formamos uma rede de voluntários que
-                            doam seu tempo e talento para apoiar
-                            as demais ações da associação, desde
-                            a organização de eventos até o
-                            atendimento direto às famílias.
+                            A associação participa de um projeto,
+                            junto com outras quatro entidades, que
+                            produz e distribui fraldas geriátricas
+                            para pessoas cadastradas em situação de
+                            vulnerabilidade, em parceria com a
+                            Cocamar, em Maringá.
                         </p>
 
-                        <a href="voluntarios.php">
-                            Quero participar →
-                        </a>
+                        <span class="action-stat">
+                            1.200 fraldas/mês
+                        </span>
 
                     </div>
 
@@ -154,12 +169,58 @@ include 'includes/header.php';
                 <!--
                     Pra adicionar uma nova ação, copie um dos blocos
                     <article class="action-card">...</article> acima
-                    e troque o emoji, o título e o texto. O grid se
-                    ajusta sozinho (3 colunas, depois 2, depois 1
-                    no celular).
+                    e troque o emoji, o título e o texto.
                 -->
 
             </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         UNIÃO QUE TRANSFORMA
+    ========================== -->
+
+    <section class="volunteer-section">
+
+        <div class="container volunteer-content">
+
+            <div>
+
+                <span class="section-tag">
+                    UNIÃO QUE TRANSFORMA
+                </span>
+
+                <h2>
+                    Quando ajudamos juntos, conseguimos ir mais
+                    longe.
+                </h2>
+
+                <p>
+                    As ações da associação também acontecem por meio
+                    de parcerias e da união com outras entidades e
+                    pessoas que acreditam na solidariedade. Cada
+                    ação representa uma oportunidade de ajudar,
+                    acolher e fazer a diferença na vida de alguém.
+                </p>
+
+                <p>
+                    Quer fazer parte dessa transformação? Você
+                    também pode contribuir com as ações da
+                    associação através do voluntariado e de outras
+                    formas de apoio.
+                </p>
+
+            </div>
+
+            <a
+                href="voluntarios.php"
+                class="btn btn-light"
+            >
+                <span aria-hidden="true">❤️</span> Quero ser voluntário
+            </a>
 
         </div>
 

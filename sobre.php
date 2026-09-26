@@ -15,17 +15,10 @@ include 'includes/header.php';
 
             <div class="about-image">
 
-                <div class="image-placeholder">
-
-                    <span>
-                        Foto da associação
-                    </span>
-
-                    <small>
-                        Podemos colocar uma foto real aqui
-                    </small>
-
-                </div>
+                <img
+                    src="img/equipe-cresol.jpg"
+                    alt="Equipe da Associação Doe Amor e Gere Esperança recebendo o Fundo Social da Cresol"
+                >
 
             </div>
 

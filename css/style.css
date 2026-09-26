@@ -47,31 +47,24 @@ Vermelho: #D62828
 .site-header {
     background: #ffffff;
     border-bottom: 1px solid #e5edf5;
-
     position: sticky;
     top: 0;
-
     z-index: 1000;
-
     box-shadow: 0 2px 12px rgba(8, 47, 107, 0.06);
 }
 
 .header-content {
     min-height: 82px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 30px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-
     gap: 12px;
-
     flex-shrink: 0;
 }
 
@@ -79,29 +72,20 @@ Vermelho: #D62828
 /* LOGO */
 
 .logo-image {
-    width: 58px !important;
-    height: 58px !important;
-
+    width: 58px;
+    height: 58px;
     overflow: hidden;
-
     border-radius: 50%;
-
     flex-shrink: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .logo-image img {
-    width: 100% !important;
-    height: 100% !important;
-
-    max-width: 100%;
-    max-height: 100%;
-
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-
     display: block;
 }
 
@@ -111,21 +95,17 @@ Vermelho: #D62828
 .logo-text {
     display: flex;
     flex-direction: column;
-
     line-height: 1.15;
 }
 
 .logo-text strong {
     color: #082F6B;
-
     font-size: 20px;
 }
 
 .logo-text span {
     color: #0B5DB7;
-
     font-size: 13px;
-
     font-weight: 500;
 }
 
@@ -135,39 +115,27 @@ Vermelho: #D62828
 .menu {
     display: flex;
     align-items: center;
-
     gap: 30px;
 }
 
 .menu a {
     color: #082F6B;
-
     font-size: 15px;
-
     font-weight: 600;
-
     padding: 8px 0;
-
     position: relative;
-
     transition: 0.3s;
 }
 
 .menu a::after {
     content: "";
-
     position: absolute;
-
     left: 0;
     bottom: 0;
-
     width: 0;
     height: 3px;
-
     background: #F4C542;
-
     border-radius: 5px;
-
     transition: 0.3s;
 }
 
@@ -180,17 +148,35 @@ Vermelho: #D62828
 }
 
 
+/* BOTÃO DE DESTAQUE NO MENU */
+
+.menu .menu-cta {
+    background: #F4C542;
+    color: #082F6B;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.menu .menu-cta::after {
+    display: none;
+}
+
+.menu .menu-cta:hover {
+    background: #ffd85d;
+    color: #082F6B;
+    transform: translateY(-2px);
+}
+
+
 /* =========================
    HERO / BANNER
 ========================= */
 
 .hero {
     position: relative;
-
     min-height: 650px;
-
     overflow: hidden;
-
     background: #082F6B;
 }
 
@@ -199,20 +185,15 @@ Vermelho: #D62828
 
 .hero-background {
     position: absolute;
-
     inset: 0;
-
     z-index: 1;
 }
 
 .hero-background img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     object-position: center top;
-
     display: block;
 }
 
@@ -221,19 +202,15 @@ Vermelho: #D62828
 
 .hero-overlay {
     position: absolute;
-
     inset: 0;
-
     z-index: 2;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(8, 47, 107, 0.70) 0%,
-            rgba(8, 47, 107, 0.45) 35%,
-            rgba(8, 47, 107, 0.12) 65%,
-            rgba(8, 47, 107, 0.02) 100%
-        );
+    background: linear-gradient(
+        90deg,
+        rgba(8, 47, 107, 0.70) 0%,
+        rgba(8, 47, 107, 0.45) 35%,
+        rgba(8, 47, 107, 0.12) 65%,
+        rgba(8, 47, 107, 0.02) 100%
+    );
 }
 
 
@@ -241,13 +218,9 @@ Vermelho: #D62828
 
 .hero-content {
     position: relative;
-
     z-index: 3;
-
     min-height: 650px;
-
     display: flex;
-
     align-items: center;
 }
 
@@ -256,51 +229,36 @@ Vermelho: #D62828
 
 .hero-text {
     max-width: 650px;
-
     color: #ffffff;
-
     padding: 70px 0;
 }
 
 .hero-tag {
     display: inline-block;
-
     color: #ffffff;
-
     font-size: 14px;
-
     font-weight: bold;
-
     letter-spacing: 5px;
-
     margin-bottom: 18px;
 }
 
 .hero h1 {
     font-size: 58px;
-
     line-height: 1.05;
-
     margin-bottom: 25px;
-
     letter-spacing: -1px;
 }
 
 .hero h1 strong {
     display: block;
-
     color: #F4C542;
 }
 
 .hero p {
     max-width: 540px;
-
     color: #f1f7ff;
-
     font-size: 19px;
-
     line-height: 1.6;
-
     margin-bottom: 32px;
 }
 
@@ -309,56 +267,41 @@ Vermelho: #D62828
 
 .hero-buttons {
     display: flex;
-
     flex-wrap: wrap;
-
     gap: 15px;
 }
 
 .btn {
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
-
     min-height: 50px;
-
     padding: 13px 24px;
-
     border-radius: 30px;
-
     font-weight: bold;
-
     transition: 0.3s;
 }
 
 .btn-primary {
     background: #F4C542;
-
     color: #082F6B;
-
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
 }
 
 .btn-primary:hover {
     background: #ffd85d;
-
     transform: translateY(-3px);
 }
 
 .btn-secondary {
     background: transparent;
-
     color: #ffffff;
-
     border: 2px solid #ffffff;
 }
 
 .btn-secondary:hover {
     background: #ffffff;
-
     color: #082F6B;
-
     transform: translateY(-3px);
 }
 
@@ -369,17 +312,13 @@ Vermelho: #D62828
 
 .about-section {
     padding: 100px 0;
-
     background: #ffffff;
 }
 
 .about-content {
     display: grid;
-
     grid-template-columns: 0.9fr 1.1fr;
-
     align-items: center;
-
     gap: 70px;
 }
 
@@ -387,36 +326,35 @@ Vermelho: #D62828
     width: 100%;
 }
 
+/* Foto real da equipe (página Sobre) */
+.about-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+
 .image-placeholder {
     min-height: 400px;
-
     background: #EEF6FF;
-
     border: 2px dashed #a9cceb;
-
     border-radius: 20px;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     color: #0B5DB7;
 }
 
 .image-placeholder span {
     font-size: 20px;
-
     font-weight: bold;
 }
 
 .image-placeholder small {
     margin-top: 8px;
-
     color: #607d91;
 }
 
@@ -430,15 +368,10 @@ Vermelho: #D62828
 
 .section-tag {
     display: inline-block;
-
     color: #0B5DB7;
-
     font-size: 14px;
-
     font-weight: bold;
-
     letter-spacing: 2px;
-
     margin-bottom: 12px;
 }
 
@@ -446,31 +379,31 @@ Vermelho: #D62828
 .section-header h2,
 .volunteer-content h2 {
     color: #082F6B;
-
     font-size: 40px;
-
     line-height: 1.2;
+    margin-bottom: 20px;
+}
 
+/* h1 usado na página Sobre e na página Ações, mesmo visual do h2 acima */
+.about-text h1,
+.section-header h1 {
+    color: #082F6B;
+    font-size: 40px;
+    line-height: 1.2;
     margin-bottom: 20px;
 }
 
 .about-text p {
     color: #536875;
-
     margin-bottom: 16px;
-
     font-size: 16px;
 }
 
 .text-link {
     display: inline-block;
-
     margin-top: 10px;
-
     color: #0B5DB7;
-
     font-weight: bold;
-
     transition: 0.3s;
 }
 
@@ -480,30 +413,80 @@ Vermelho: #D62828
 
 
 /* =========================
+   MISSÃO, VISÃO E VALORES (página Sobre)
+========================= */
+
+.mvv-section {
+    padding: 100px 0;
+    background: #EEF6FF;
+}
+
+.mvv-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.mvv-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 35px 30px;
+    border: 1px solid #dbeaf7;
+    box-shadow: 0 8px 25px rgba(8, 47, 107, 0.08);
+    transition: 0.3s;
+}
+
+.mvv-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(8, 47, 107, 0.14);
+}
+
+.mvv-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #082F6B;
+    color: #ffffff;
+    margin-bottom: 14px;
+    font-size: 22px;
+}
+
+.mvv-card h3 {
+    color: #082F6B;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.mvv-card p {
+    color: #60727c;
+}
+
+
+/* =========================
    AÇÕES
 ========================= */
 
 .actions-section {
     padding: 100px 0;
-
     background: #EEF6FF;
 }
 
 .section-header {
     max-width: 750px;
-
     margin: 0 auto 50px;
-
     text-align: center;
 }
 
-.section-header h2 {
+.section-header h2,
+.section-header h1 {
     margin-bottom: 15px;
 }
 
 .section-header p {
     color: #5d7180;
-
     font-size: 17px;
 }
 
@@ -512,29 +495,21 @@ Vermelho: #D62828
 
 .action-cards {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 28px;
 }
 
 .action-card {
     background: #ffffff;
-
     border-radius: 18px;
-
     overflow: hidden;
-
     border: 1px solid #dbeaf7;
-
     box-shadow: 0 8px 25px rgba(8, 47, 107, 0.08);
-
     transition: 0.3s;
 }
 
 .action-card:hover {
     transform: translateY(-8px);
-
     box-shadow: 0 18px 40px rgba(8, 47, 107, 0.14);
 }
 
@@ -543,42 +518,32 @@ Vermelho: #D62828
 
 .card-image {
     height: 210px;
-
     overflow: hidden;
-
     background: #dceefe;
 }
 
 .card-placeholder {
     width: 100%;
     height: 100%;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     font-size: 55px;
-
-    background:
-        linear-gradient(
-            135deg,
-            #0B5DB7,
-            #082F6B
-        );
-
+    background: linear-gradient(135deg, #0B5DB7, #082F6B);
     color: #ffffff;
 }
 
 .card-image img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     display: block;
-
     transition: 0.4s;
+}
+
+/* Ajuste de enquadramento para fotos verticais em cards baixos */
+.card-image img.foto-topo {
+    object-position: center top;
 }
 
 .action-card:hover .card-image img {
@@ -594,41 +559,30 @@ Vermelho: #D62828
 
 .card-icon {
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
-
     width: 48px;
     height: 48px;
-
     border-radius: 50%;
-
     background: #082F6B;
-
     margin-bottom: 14px;
-
     font-size: 22px;
 }
 
 .card-content h3 {
     color: #082F6B;
-
     font-size: 21px;
-
     margin-bottom: 10px;
 }
 
 .card-content p {
     color: #60727c;
-
     margin-bottom: 18px;
 }
 
 .card-content a {
     color: #0B5DB7;
-
     font-weight: bold;
-
     transition: 0.3s;
 }
 
@@ -636,29 +590,55 @@ Vermelho: #D62828
     color: #D62828;
 }
 
+/* Detalhes extras dentro dos cards de ação */
+.action-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #EEF6FF;
+    color: #0B5DB7;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.action-list {
+    list-style: disc;
+    padding-left: 20px;
+    color: #60727c;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.action-list li {
+    margin-bottom: 4px;
+}
+
+.action-stat {
+    display: inline-block;
+    background: linear-gradient(135deg, #0B5DB7, #082F6B);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
 
 /* =========================
-   VOLUNTÁRIO
+   VOLUNTÁRIO (seção da home)
 ========================= */
 
 .volunteer-section {
     padding: 80px 0;
-
-    background:
-        linear-gradient(
-            135deg,
-            #082F6B,
-            #0B5DB7
-        );
+    background: linear-gradient(135deg, #082F6B, #0B5DB7);
 }
 
 .volunteer-content {
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     gap: 40px;
 }
 
@@ -668,284 +648,32 @@ Vermelho: #D62828
 
 .volunteer-content h2 {
     color: #ffffff;
-
     max-width: 700px;
-
     margin-bottom: 12px;
 }
 
 .volunteer-content p {
     color: #e4f1ff;
-
     max-width: 650px;
-
     font-size: 17px;
 }
 
 .btn-light {
     background: #ffffff;
-
     color: #082F6B;
-
     white-space: nowrap;
 }
 
 .btn-light:hover {
     background: #F4C542;
-
     transform: translateY(-3px);
 }
 
 
 /* =========================
-   CONTATO
+   PÁGINA "SEJA VOLUNTÁRIO" (formulário)
 ========================= */
 
-.contact-section {
-    padding: 100px 0;
-
-    background: #ffffff;
-}
-
-.contact-buttons {
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 15px;
-}
-
-.contact-button {
-    min-width: 160px;
-
-    padding: 14px 25px;
-
-    border-radius: 30px;
-
-    text-align: center;
-
-    background: #082F6B;
-
-    color: #ffffff;
-
-    font-weight: bold;
-
-    transition: 0.3s;
-}
-
-.contact-button:hover {
-    background: #D62828;
-
-    transform: translateY(-3px);
-}
-
-
-/* =========================
-   RODAPÉ
-========================= */
-
-.site-footer {
-    background: #061f48;
-
-    color: #ffffff;
-}
-
-.footer-content {
-    padding: 55px 0;
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 50px;
-}
-
-.footer-content h3 {
-    margin-bottom: 12px;
-
-    color: #ffffff;
-}
-
-.footer-content p {
-    max-width: 450px;
-
-    color: #c9dced;
-}
-
-.footer-content a {
-    display: block;
-
-    color: #c9dced;
-
-    margin-bottom: 8px;
-
-    transition: 0.3s;
-}
-
-.footer-content a:hover {
-    color: #F4C542;
-}
-
-.footer-bottom {
-    padding: 20px;
-
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-
-    text-align: center;
-
-    color: #b8ccdf;
-
-    font-size: 14px;
-}
-
-
-/* =========================
-   RESPONSIVO
-========================= */
-
-@media (max-width: 1000px) {
-
-    .menu {
-        gap: 18px;
-    }
-
-    .menu a {
-        font-size: 14px;
-    }
-
-    .hero h1 {
-        font-size: 48px;
-    }
-
-    .action-cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
-@media (max-width: 800px) {
-
-    .header-content {
-        flex-direction: column;
-
-        padding: 18px 0;
-    }
-
-    .hero {
-        min-height: 620px;
-    }
-
-    .hero-content {
-        min-height: 620px;
-    }
-
-    .hero-overlay {
-        background:
-            linear-gradient(
-                90deg,
-                rgba(8, 47, 107, 0.92),
-                rgba(8, 47, 107, 0.65)
-            );
-    }
-
-    .about-content {
-        grid-template-columns: 1fr;
-
-        gap: 40px;
-    }
-
-    .about-text {
-        max-width: 100%;
-    }
-
-    .volunteer-content {
-        flex-direction: column;
-
-        text-align: center;
-    }
-}
-
-
-@media (max-width: 600px) {
-
-    .container {
-        width: 92%;
-    }
-
-    .menu {
-        flex-wrap: wrap;
-
-        justify-content: center;
-
-        gap: 12px 18px;
-    }
-
-    .logo-image {
-        width: 52px !important;
-        height: 52px !important;
-    }
-
-    .logo-text strong {
-        font-size: 17px;
-    }
-
-    .hero {
-        min-height: 650px;
-    }
-
-    .hero-content {
-        min-height: 650px;
-    }
-
-    .hero-text {
-        padding: 50px 0;
-    }
-
-    .hero h1 {
-        font-size: 39px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-    .hero-buttons .btn {
-        width: 100%;
-    }
-
-    .about-section,
-    .actions-section,
-    .contact-section {
-        padding: 70px 0;
-    }
-
-    .about-text h2,
-    .section-header h2,
-    .volunteer-content h2 {
-        font-size: 31px;
-    }
-
-    .action-cards {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-
-        gap: 30px;
-    }
-}/* =========================
-   FORMULÁRIO VOLUNTÁRIO
-========================= */
-/* =========================
-   FORMULÁRIO VOLUNTÁRIO
-========================= */
 .volunteer-form-section {
     padding: 100px 0;
     background: #EEF6FF;
@@ -1063,125 +791,7 @@ Vermelho: #D62828
     margin-top: 6px;
 }
 
-@media (max-width: 600px) {
-    .volunteer-form-section {
-        padding: 70px 0;
-    }
-
-    .volunteer-intro h1 {
-        font-size: 29px;
-    }
-
-    .volunteer-form-card {
-        padding: 30px 22px;
-        border-radius: 18px;
-    }
-}
-
-/* =========================
-   SOBRE (h1 nessa página, mesmo estilo do h2 da home)
-========================= */
-.about-text h1 {
-    color: #082F6B;
-    font-size: 40px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-
-/* =========================
-   MISSÃO, VISÃO E VALORES
-========================= */
-.mvv-section {
-    padding: 100px 0;
-    background: #EEF6FF;
-}
-
-.mvv-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
-}
-
-.mvv-card {
-    background: #ffffff;
-    border-radius: 18px;
-    padding: 35px 30px;
-    border: 1px solid #dbeaf7;
-    box-shadow: 0 8px 25px rgba(8, 47, 107, 0.08);
-    transition: 0.3s;
-}
-
-.mvv-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 18px 40px rgba(8, 47, 107, 0.14);
-}
-
-.mvv-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: #082F6B;
-    color: #ffffff;
-    margin-bottom: 14px;
-    font-size: 22px;
-}
-
-.mvv-card h3 {
-    color: #082F6B;
-    font-size: 21px;
-    margin-bottom: 10px;
-}
-
-.mvv-card p {
-    color: #60727c;
-}
-
-@media (max-width: 1000px) {
-    .mvv-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .about-text h1 {
-        font-size: 31px;
-    }
-
-    .mvv-section {
-        padding: 70px 0;
-    }
-
-    .mvv-grid {
-        grid-template-columns: 1fr;
-    }
-}
-/* =========================
-   BOTÃO DE DESTAQUE NO MENU
-========================= */
-.menu .menu-cta {
-    background: #F4C542;
-    color: #082F6B;
-    padding: 10px 22px;
-    border-radius: 30px;
-    transition: 0.3s;
-}
-
-.menu .menu-cta::after {
-    display: none;
-}
-
-.menu .menu-cta:hover {
-    background: #ffd85d;
-    color: #082F6B;
-    transform: translateY(-2px);
-}
-.form-group-hidden { display: none; } 
-/* =========================
-   MENSAGENS DO FORMULÁRIO
-========================= */
+/* Mensagens de sucesso/erro do formulário */
 .form-message {
     padding: 16px 20px;
     border-radius: 10px;
@@ -1200,4 +810,242 @@ Vermelho: #D62828
     background: #fdecec;
     color: #b32323;
     border: 1px solid #f5c2c2;
+}
+
+
+/* =========================
+   CONTATO
+========================= */
+
+.contact-section {
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-button {
+    min-width: 160px;
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-align: center;
+    background: #082F6B;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background: #D62828;
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+.site-footer {
+    background: #061f48;
+    color: #ffffff;
+}
+
+.footer-content {
+    padding: 55px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-content h3 {
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.footer-content p {
+    max-width: 450px;
+    color: #c9dced;
+}
+
+.footer-content a {
+    display: block;
+    color: #c9dced;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.footer-content a:hover {
+    color: #F4C542;
+}
+
+.footer-bottom {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    text-align: center;
+    color: #b8ccdf;
+    font-size: 14px;
+}
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 1000px) {
+    .menu {
+        gap: 18px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .action-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mvv-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header-content {
+        flex-direction: column;
+        padding: 18px 0;
+    }
+
+    .hero {
+        min-height: 620px;
+    }
+
+    .hero-content {
+        min-height: 620px;
+    }
+
+    .hero-overlay {
+        background: linear-gradient(
+            90deg,
+            rgba(8, 47, 107, 0.92),
+            rgba(8, 47, 107, 0.65)
+        );
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    .volunteer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 92%;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
+    }
+
+    .logo-image {
+        width: 52px;
+        height: 52px;
+    }
+
+    .logo-text strong {
+        font-size: 17px;
+    }
+
+    .hero {
+        min-height: 650px;
+    }
+
+    .hero-content {
+        min-height: 650px;
+    }
+
+    .hero-text {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .about-section,
+    .actions-section,
+    .contact-section {
+        padding: 70px 0;
+    }
+
+    .about-image img {
+        height: 260px;
+    }
+
+    .about-text h2,
+    .section-header h2,
+    .volunteer-content h2,
+    .about-text h1,
+    .section-header h1 {
+        font-size: 31px;
+    }
+
+    .action-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .mvv-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .volunteer-form-section {
+        padding: 70px 0;
+    }
+
+    .volunteer-intro h1 {
+        font-size: 29px;
+    }
+
+    .volunteer-form-card {
+        padding: 30px 22px;
+        border-radius: 18px;
+    }
 }

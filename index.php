@@ -76,17 +76,10 @@ include 'includes/header.php';
 
             <div class="about-image">
 
-                <div class="image-placeholder small">
-
-                    <span>
-                        Foto da associação
-                    </span>
-
-                    <small>
-                        Podemos colocar uma foto real aqui
-                    </small>
-
-                </div>
+                <img
+                    src="img/equipe-cresol.jpg"
+                    alt="Equipe da Associação Doe Amor e Gere Esperança recebendo o Fundo Social da Cresol"
+                >
 
             </div>
 
@@ -357,7 +350,7 @@ include 'includes/header.php';
 
                 <!-- TODO: trocar o href="#" pelo link real do Instagram -->
                 <a
-                    href="https://www.instagram.com/neymarjr/"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="contact-button"
@@ -367,7 +360,7 @@ include 'includes/header.php';
 
                 <!-- TODO: trocar o href="#" pelo link real do Facebook -->
                 <a
-                    href="https://p4.wallpaperbetter.com/wallpaper/616/654/498/great-ape-western-gorilla-mammal-terrestrial-animal-wallpaper-preview.jpg"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="contact-button"
